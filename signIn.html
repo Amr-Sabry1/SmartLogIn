@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="mainpage" class="welcome-contain pt-5">
+        <div class="container text-center pt-5 p-3">
+            <div class="contant-contain m-auto  p-md-5 p-4">
+                <h1>LogIn</h1>
+
+                <input id="signinEmail" class="text-black form-control mt-4 my-4" placeholder="Enter your email" type="email">
+                <input id="signinPassword" class="text-black form-control my-4" placeholder="Enter your password" type="password">
+                <p id="incorrect"></p>
+
+                <button id="signIn" class="btns w-25 my-3">Login</button>
+                <p>Don’t have an account? <a href="signUp.html">SignUp</a></p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="home" class="d-none">
+        <nav class="navbar navbar-expand-lg navbar-dark group ">
+            <div class="container">
+                <h1 class="navbar-brand text-black fs-2 fw-bold">SMART LOGIN</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-black btn bg-white bg-opacity-50 " href="signIn.html">Logout</a>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container py-2 text-center d-flex align-items-center">
+            <div class="contant-contain m-auto w-50 p-2">
+                <h1 id="username"></h1>
+            </div>
+        </div>
+        <div class="container py-2 text-center d-flex align-items-center">
+            <div class="contant-contain m-auto w-50 p-5">
+                <h2>Welcome To Our Website Your World Of Niche Awaits We’re so glad you’re here! You are now part of a growing community of professionals creating, collaborating, and connecting across the globe via Website tools. Whether you’ve joined to
+                    create something of your own or just to connect with other professionals, we’ve got something for you. Let’s go! </h2>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>

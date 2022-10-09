@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(0deg, rgba(0, 20, 241, 0.515) 0%, rgba(1, 249, 241, 0.564) 60%);
+    background-image: url(../images/240_F_243432767_5vVNBbvzytBoqesfcofEm8007fa0YguT.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#home {
+    height: 75vh;
+}
+
+input {
+    border: 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16) !important;
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid rgb(234, 231, 231);
+}
+
+input:hover {
+    box-shadow: 1px 1px 10px #02c8ff72;
+    border-color: #17a3b800!important;
+}
+
+.btns {
+    font-size: 17px;
+    border-radius: 4px;
+    border: transparent;
+    padding: 5px 10px;
+    color: #fff;
+    transition: 1s all;
+    background: linear-gradient(90deg, rgb(77, 70, 211) 0%, rgba(72, 72, 187, 1) 36%, rgba(0, 212, 255, 1) 100%);
+}
+
+.btns:hover {
+    background: linear-gradient(90deg, rgba(0, 213, 255, 0.61) 0%, rgba(0, 51, 255, 0) 50%, rgba(0, 213, 255, 0.653) 100%) !important;
+    color: rgb(2, 2, 2);
+}
+
+h1 {
+    font-weight: 600;
+    color: #17a3b8;
+}
+
+.contant-contain {
+    width: 40%;
+    border-radius: 10px;
+    background: rgb(253, 253, 253);
+    box-shadow: -5px 2px 30px -9px rgb(0, 0, 0)
+}
+
+@media screen and (max-width:768px) {
+    .contant-contain,
+    .welcome-contain {
+        width: 100% !important;
+    }
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+button a {
+    color: white !important;
+}
+
+button a:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+a {
+    transition: .4s all;
+    color: #0bb3cd !important;
+}
+
+a:hover {
+    color: #00ff2a !important;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.welcome-contain {
+    height: 100vh;
+    background-color: #00000024;
+    background-position: center center;
+    background-size: cover;
+}
+
+.letter h3 {
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.letter button {
+    width: 10%;
+    letter-spacing: 1px;
+}
